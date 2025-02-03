@@ -1,4 +1,10 @@
 <script setup>
+    useHead({
+        title: 'MOE THET HNIN',
+        meta: [
+            { name: 'description', content: 'I’m a passionate Front-end developer with expertise in HTML, CSS, JavaScript, Vue.js, Nuxt.js. Feel free to reach out—I’m always up for a coding adventure.' }
+        ],
+    })
     const my_skills = {
         frontend:[
             { name: "HTML", exp: 6 },
