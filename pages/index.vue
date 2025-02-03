@@ -116,7 +116,8 @@
                 }
                 .frontend, .tools{
                     .we-skills{
-                        @apply grid grid-cols-4 gap-2 p-3;
+                        @apply grid grid-cols-2 gap-2 p-3;
+                        @apply md:grid-cols-4;
                         li{
                             @apply flex flex-col leading-4 ;
                             small{

@@ -4,12 +4,12 @@
         <div class="banner-info">
             <div class="greeting flex flex-col text-white items-center">
                 <span class="me-auto">Hello, I'm</span> 
-                <h2 class="text-3xl font-bold">MOE THET HNIN</h2>
+                <h2 class="text-2xl md:text-3xl font-bold">MOE THET HNIN</h2>
                 <h3 class="text-xl">Bachelor of Engineering (IT)</h3>
             </div>
             <div class="short-bio flex flex-col items-center">
-                <h3 class="text-2xl">Frontend Developer</h3>
-                <div class="my-skills">
+                <h3 class="text-xl md:text-2xl">Frontend Developer</h3>
+                <div class="my-skills ">
                     <span class="each-ms">HTML</span>
                     <span class="and">&</span>
                     <span class="each-ms">CSS</span>
@@ -23,7 +23,6 @@
                     <span class="each-ms">Tailwind</span>
                 </div>
             </div>
-            <p class="text-lg text-center mt-4 text-white">I'm thrilled to have you here. Explore my projects and get to know my work. Enjoy your visit!</p>
         </div>
     </div>
 </template>
@@ -48,7 +47,8 @@
             .short-bio{
                 @apply text-gray-600;
                 .my-skills{
-                    @apply flex gap-1 items-center;
+                    @apply hidden;
+                    @apply md:flex gap-1 items-center;
                     .each-ms{
                         
                     }
