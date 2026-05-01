@@ -1,187 +1,151 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="モーテッニン（Moe Thet Hnin）のポートフォリオ。Webコンテンツスペシャリスト、AEMオーサー、CMSパブリッシャー。" />
-  <title>モーテッニン（Moe Thet Hnin）｜ポートフォリオ</title>
-  <link rel="stylesheet" href="../assets/css/styles.css" />
-  <link rel="icon" href="../assets/img/mock-laptop.svg" type="image/svg+xml">
+  <meta name="description" content="Portfolio of Moe Thet Hnin (モーテッニン) — Web Content Specialist, AEM Author, and CMS Publisher." />
+  <title>Moe Thet Hnin (モーテッニン) | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/img/mock-laptop.svg" type="image/svg+xml">
 </head>
-
 <body>
-  <a class="skip" href="#main">本文へスキップ</a>
-
-  <header class="site">
-    <div class="container header-inner">
-      <a class="brand" href="index.html">モーテッニン（Moe Thet Hnin）</a>
-
-      <button id="navToggle" class="nav-toggle" aria-label="メニューを開く">☰</button>
-
-      <nav id="primaryNav" class="nav" aria-label="メインナビゲーション">
-        <ul>
-          <li><a href="projects.html">プロジェクト</a></li>
-          <li><a href="about.html">自己紹介</a></li>
-          <li><a href="contact.html">お問い合わせ</a></li>
-          <li class="lang-switch"><a href="../index.html">EN</a> | <span>日本語</span></li>
-        </ul>
-      </nav>
-
-      <button id="themeToggle" class="theme" aria-label="テーマ切替">🌓</button>
-    </div>
-  </header>
-
+  <a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Moe Thet Hnin (モーテッニン)</a>
+    <button id="navToggle" class="nav-toggle" aria-label="Open menu">☰</button>
+    <nav id="primaryNav" class="nav" aria-label="Primary">
+      <ul>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class='lang-switch'><span>EN</span> | <a href='ja/index.html'>日本語</a></li>
+      </ul>
+    </nav>
+    <button id="themeToggle" class="theme" aria-label="Toggle theme">🌓</button>
+  </div>
+</header>
   <main id="main">
-    <!-- Hero -->
     <section class="hero container">
       <div>
-        <p class="muted">Webコンテンツスペシャリスト</p>
-        <h1>AEMオーサー ・ WEBディレクタ</h1>
-
-        <p class="lead">
-          Adobe Experience Manager（AEM）および自社開発CMSを使用し、エンタープライズ向けWebサイトの制作・運用に携わっています。
-          フレームワークの調査、海外エンジニアとの連携、オンボーディングドキュメントの作成を担当しました。
-          コーポレートページ、製品ページ、疾患情報ページ、患者サポートページの作成・更新を行い、
-          日本向けリリースでは QA およびローカライズQA を担当しました。
-          チームメンバーからリードへと役割を拡大し、ページ納品および品質管理の責任を担いました。
-        </p>
-
+        <p class="muted">Web Content Specialist</p>
+        <h1>AEM Author ・ Web Director</h1>
+        <p class="lead">I work on enterprise websites using Adobe Experience Manager (AEM) and a proprietary in‑house CMS — investigating the framework, collaborating with global engineering, and writing onboarding documentation. I created and maintained corporate, product, disease, and patient support pages, and supported Japanese releases through QA and Localization QA. I also collaborated with global teams and progressed from team member to lead, taking responsibility for page delivery and quality control.</p>
         <div class="actions">
-          <a class="btn btn-primary" href="projects.html">プロジェクトを見る</a>
-          <a class="btn" href="about.html">自己紹介</a>
+          <a class="btn btn-primary" href="projects.html">View Projects</a>
+          <a class="btn" href="about.html">About Me</a>
         </div>
-
         <ul class="quick">
-          <li>Adobe Experience Manager（AEM）</li>
-          <li>自社開発CMS</li>
-          <li>コーポレート／製品／疾患ページ</li>
-          <li>患者サポートページ</li>
-          <li>QA・ローカライズQA（日本向け）</li>
-          <li>グローバルチーム連携</li>
-          <li>Photoshop（PSD → Web）</li>
-          <li>公開・リリース対応</li>
-        </ul>
+          <li>Adobe Experience Manager (AEM)</li>
+          <li>Proprietary In‑House CMS</li>
+          <li>Corporate / Product / Disease Pages</li>
+          <li>Patient Support Pages</li>
+          <li>QA & Localization QA (JP)</li>
+          <li>Global Collaboration</li>
+          <li>Photoshop (PSD → Web)</li>
+          <li>Publishing & Release Support</li>
+        <!-- <li class='lang-switch'><span>EN</span> | <a href='ja/index.html'>日本語</a></li></ul> -->
       </div>
-
       <div class="hero-visual">
-        <img src="../assets/img/corporate-desktop.png"
-             alt="エンタープライズ向けコーポレートサイトのレイアウト例"
-             class="hero-desktop">
+            <img src="assets/img/corporate-desktop.png" alt="Enterprise corporate website layout example" class="hero-desktop">
       </div>
     </section>
 
-    <!-- Featured Projects -->
     <section class="section container">
-      <h2>主なプロジェクト</h2>
-
+      <h2>Featured Projects</h2>
       <div class="grid">
         <article class="card">
           <div class="project-visual">
-            <img src="../assets/img/aem-desktop.png"
-                 alt="AEMページのデスクトップ表示"
-                 class="project-desktop">
+            <img src="assets/img/aem-desktop.png" alt="AEM page laptop mockup" class="project-desktop">
           </div>
           <div class="card-body">
-            <h3>AEM：コーポレート・製品ページ（メンバー → リード）</h3>
-            <p>
-              Adobe Experience Manager（AEM）を使用し、コーポレート、製品、疾患、患者サポートページを作成・更新。
-              チームメンバーとして参画後、リードとして QA および日本向けローカライズQA を担当。
-            </p>
+            <h3>AEM — Corporate & Product Pages (Member → Lead)</h3>
+            <p>Created and updated corporate, product, disease, and patient support pages using Adobe Experience Manager (AEM). Initially joined as a team member and later took a lead role, supporting QA, Localization QA for Japanese content.</p>
             <ul class="tags">
               <li>AEM</li>
               <li>Photoshop</li>
               <li>QA</li>
-              <li>ローカライズQA</li>
-              <li>グローバル連携</li>
-              <li>リーダーシップ</li>
+              <li>Localization QA (JP)</li>
+              <li>Global Collaboration</li>
+              <li>Leadership</li>
+              <!-- <li class='lang-switch'><span>EN</span> | <a href='ja/index.html'>日本語</a></li> -->
             </ul>
           </div>
         </article>
-
         <article class="card">
           <div class="project-visual">
-            <img src="../assets/img/cms-migration-desktop.png"
-                 alt="CMS移行後のサイト画面"
-                 class="project-desktop">
+            <img src="assets/img/cms-migration-desktop.png" alt="CMS migration desktop" class="project-desktop">
           </div>
           <div class="card-body">
-            <h3>自社CMS：AEM → CMS移行（リード）</h3>
-            <p>
-              AEMから自社開発CMSへの移行プロジェクトをリード。
-              移行後の日本語ページについて、コンテンツ整合性、レイアウト、リンク動作のローカライズQAを実施。
-            </p>
+            <h3>Proprietary CMS — AEM → CMS Migration (Lead)</h3>
+            <p>Migrated product, disease, and patient support pages from AEM to a proprietary in‑house CMS. Performed post‑migration Localization QA to verify content integrity, layout accuracy, and link behavior for Japanese pages.</p>
             <ul class="tags">
               <li>CMS</li>
-              <li>データ移行</li>
+              <li>Migration</li>
               <li>QA</li>
-              <li>移行後ローカライズQA</li>
-              <li>公開対応</li>
-              <li>グローバル連携</li>
-              <li>リーダーシップ</li>
+              <li>Localization QA (Post‑Migration)</li>
+              <li>Publishing</li>
+              <li>Global Collaboration</li>
+              <li>Leadership</li>
+              <!-- <li class='lang-switch'><span>EN</span> | <a href='ja/index.html'>日本語</a></li> -->
             </ul>
           </div>
         </article>
-
         <article class="card">
           <div class="project-visual">
-            <img src="../assets/img/cms-new-desktop.png"
-                 alt="新CMSによる日本向けページ"
-                 class="project-desktop">
+               <img src="assets/img/cms-new-desktop.png" alt="New CMS site desktop" class="project-desktop">
           </div>
           <div class="card-body">
-            <h3>自社CMS：日本向け新規ページ制作（リード）</h3>
-            <p>
-              自社CMSを用いて、製品・疾患・患者サポートページを新規構築。
-              レイアウト検証、ローカライズQA、単独での公開作業を行い、フレームワーク知識をチームへ展開。
-            </p>
+            <h3>Proprietary CMS — New JP Page Builds (Lead)</h3>
+            <p>Built new product, disease, and patient support pages using a proprietary CMS. Handled layout validation, Localization QA, independent publishing, and shared framework knowledge with team members.</p>
             <ul class="tags">
               <li>CMS</li>
-              <li>ドキュメント整備</li>
-              <li>日本語ローカライズ・QA</li>
-              <li>公開作業</li>
-              <li>グローバル連携</li>
-              <li>リーダーシップ</li>
+              <li>Documentation</li>
+              <li>JP Localization & QA</li>
+              <li>Publishing</li>
+              <li>Global Collaboration</li>
+              <li>Leadership</li>
+              <!-- <li class='lang-switch'><span>EN</span> | <a href='ja/index.html'>日本語</a></li> -->
             </ul>
           </div>
         </article>
       </div>
-
-      <div class="actions" style="margin-top:1rem">
-        <a class="btn" href="projects.html">すべてのプロジェクトを見る →</a>
-      </div>
+      <div class="actions" style="margin-top:1rem"><a class="btn" href="projects.html">See all projects →</a></div>
     </section>
-
-    <!-- How I Work -->
     <section class="section how-i-work">
-      <div class="container">
-        <h2>仕事の進め方</h2>
-        <div class="workflow">
-          <span class="workflow-step">要件整理</span>
-          <span class="workflow-arrow">→</span>
-          <span class="workflow-step">デザイン</span>
-          <span class="workflow-arrow">→</span>
-          <span class="workflow-step">構築</span>
-          <span class="workflow-arrow">→</span>
-          <span class="workflow-step">QA</span>
-          <span class="workflow-arrow">→</span>
-          <span class="workflow-step">ローカライズQA</span>
-          <span class="workflow-arrow">→</span>
-          <span class="workflow-step">公開</span>
+        <div class="container">
+            <h2>How I Work</h2>
+            <div class="workflow">
+                <span class="workflow-arrow">→</span>
+                <span class="workflow-step">Requirements</span>
+                <span class="workflow-arrow">→</span>
+            
+                <span class="workflow-step">Design</span>
+                <span class="workflow-arrow">→</span>
+            
+                <span class="workflow-step">Build</span>
+                <span class="workflow-arrow">→</span>
+            
+                <span class="workflow-step">QA</span>
+                <span class="workflow-arrow">→</span>
+            
+                <span class="workflow-step">Localization QA</span>
+                <span class="workflow-arrow">→</span>
+            
+                <span class="workflow-step">Release</span>
+            </div>
         </div>
-      </div>
-    </section>
+        </section>
   </main>
-
   <footer class="site">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> モーテッニン（Moe Thet Hnin）</p>
-      <div class="socials">
-        <a href="https://www.linkedin.com/in/moe-thet-hnin/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="mailto:moethethnin.tu@gmail.com">Email</a>
-      </div>
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Moe Thet Hnin (モーテッニン)</p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/moe-thet-hnin/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:moethethnin.tu@gmail.com">Email</a>
     </div>
-  </footer>
-
-  <script src="../assets/js/main.js"></script>
+  </div>
+</footer>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
