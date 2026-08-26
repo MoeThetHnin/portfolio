@@ -161,10 +161,6 @@ header.site {
    Hero Section
 ====================================================== */
 .hero {
-  /* display: grid; */
-  grid-template-columns: 1.25fr 0.75fr;
-  gap: 2rem;
-  align-items: center;
   padding: 3rem 0;
 }
 
