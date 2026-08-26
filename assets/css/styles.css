@@ -161,7 +161,7 @@ header.site {
    Hero Section
 ====================================================== */
 .hero {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1.25fr 0.75fr;
   gap: 2rem;
   align-items: center;
@@ -174,12 +174,6 @@ header.site {
 
 .hero .lead {
   color: var(--muted);
-}
-
-.hero-visual {
-  display: flex;
-  align-items: flex-end;
-  max-height: 420px;
 }
 
 .hero-desktop {
@@ -244,10 +238,6 @@ header.site {
   padding: 2rem 0 3rem;
 }
 
-.section.container {
-  margin-top: 4rem;
-}
-
 .page-header {
   padding: 2rem 0 1rem;
 }
@@ -261,8 +251,8 @@ header.site {
 ====================================================== */
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
 
 .card {
@@ -283,12 +273,10 @@ header.site {
 
 /* Featured project card image */
 .project-desktop {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 8px;
-  display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
 }
 
 /* Tag list */
@@ -400,3 +388,19 @@ footer.site {
 .contact-list li {
   margin-bottom: 0.5rem;
 }
+/* ======================================================
+   Responsibilities & Expertise
+====================================================== */
+
+.expertise-grid {
+  margin-top: 1rem;
+}
+
+.expertise-list {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.expertise-list li {
+  margin-bottom: 0.5rem;
+  color: var
