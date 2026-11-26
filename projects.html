@@ -4,213 +4,165 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Projects | Moe Thet Hnin (モーテッニン)</title>
+  <meta name="description" content="Moe Thet Hnin — Project Leader for generative AI and business automation, Web Director and CMS (AEM) Specialist with 7+ years of enterprise web experience." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Projects | Moe Thet Hnin (モーテッニン)" />
+  <meta property="og:description" content="Moe Thet Hnin — Project Leader for generative AI and business automation, Web Director and CMS (AEM) Specialist with 7+ years of enterprise web experience." />
+  <meta name="theme-color" content="#2563eb" />
+  <link rel="alternate" hreflang="ja" href="ja/projects.html" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Noto+Sans+JP:wght@400;500;700;800&amp;display=swap" />
+  <script>(function(){var t;try{t=localStorage.getItem('theme')}catch(e){}if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}document.documentElement.setAttribute('data-theme',t)})();</script>
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
-  <!-- HEADER -->
   <header class="site">
     <div class="container header-inner">
-      <a class="brand" href="index.html">Moe Thet Hnin (モーテッニン)</a>
-
-      <button id="navToggle" class="nav-toggle" aria-label="Open menu">☰</button>
-
+      <a class="brand" href="index.html"><span class="brand-mark">MT</span><span class="brand-name">Moe Thet Hnin</span></a>
+      <button id="navToggle" class="icon-btn nav-toggle" aria-label="Open menu" aria-controls="primaryNav" aria-expanded="false"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
       <nav id="primaryNav" class="nav" aria-label="Primary">
         <ul>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="responsibilities.html">Responsibilities</a></li>
-        <li class='lang-switch'><span>EN</span> | <a href='ja/index.html'>日本語</a></li>
-      </ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html" class="active" aria-current="page">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="responsibilities.html">Expertise</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="lang-switch"><span>EN</span><a href="ja/projects.html" lang="ja" hreflang="ja">日本語</a></li>
+        </ul>
       </nav>
-
-      <button id="themeToggle" class="theme" aria-label="Toggle theme">🌓</button>
+      <button id="themeToggle" class="icon-btn theme" aria-label="Toggle dark mode"><svg class="icon sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="icon moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4 8 8 0 1020 14.5z"/></svg></button>
     </div>
   </header>
 
-  <!-- MAIN -->
-  <main id="main" class="container">
+  <main id="main">
+    <section class="page-hero container">
+      <span class="eyebrow">Projects</span>
+      <h1>Case studies</h1>
+      <p>Six projects from generative AI automation, enterprise web operations and business-system QA — what the challenge was, what I did, and what changed. Client names and sensitive details are withheld.</p>
+    </section>
 
-  <header class="page-header">
-    <h1>Projects</h1>
-    <p class="lead">
-      Case studies highlighting my experience in project leadership, CMS operations,
-      localization QA, and global collaboration across enterprise web environments.
-    </p>
-  </header>
+    <section class="container">
+      <div class="filters" role="group" aria-label="Filter projects"><button class="filter" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter" type="button" data-filter="ai" aria-pressed="false">AI &amp; Automation</button><button class="filter" type="button" data-filter="pm" aria-pressed="false">Leadership</button><button class="filter" type="button" data-filter="web" aria-pressed="false">Web &amp; CMS</button><button class="filter" type="button" data-filter="qa" aria-pressed="false">QA &amp; Support</button></div>
 
-  <!-- AEM PROJECT -->
-  <section class="section project">
-    <h2>AEM — Corporate, Product & Patient Support Pages</h2>
+    <article class="card case reveal" id="fde" data-cat="ai pm">
+      <div class="case-head">
+        <div class="case-intro">
+          <div class="tag-line"><span class="pill now">Current</span><span class="pill">Generative AI & Automation</span></div>
+          <h2>AI Business Improvement &amp; Automation (FDE)</h2>
+          <p>PoCs and system development that use generative AI and automation to streamline internal work — including overtime pay calculation, monthly performance-data aggregation and automatic journal entries from bank transactions.</p>
+          <dl class="facts"><div><dt>Period</dt><dd>Oct 2026 – Present</dd></div><div><dt>Role</dt><dd>Project Leader</dd></div><div><dt>Team</dt><dd>8 (leader + 7)</dd></div></dl>
+          <ul class="chips"><li>Python</li><li>Azure OpenAI Service</li><li>Microsoft Copilot</li><li>Claude</li></ul>
+        </div>
+        <div class="case-side metric-media"><div><div class="big">~16<small>hrs</small></div><div class="cap">saved every month-start by automating Excel data aggregation</div></div></div>
+      </div>
+      <div class="case-cols">
+        <div><h3>Challenge</h3><p>Month-start aggregation was done by hand and collided with other deadlines, causing heavy workloads and input errors. The developers had no business-domain knowledge, which put the project at risk of rework.</p></div>
+        <div><h3>What I did</h3><ul class="check-list"><li>Run the whole project: planning, scheduling and issue management</li><li>Assign tasks, track progress and coach 7 team members</li><li>Interview business teams to surface issues, then select and prioritize AI themes</li><li>Document current workflows and rules as guidelines developers can build from</li><li>Define, validate and roll out automated data aggregation; drive the bank-journal PoC</li><li>Facilitate meetings, build consensus and report progress</li></ul></div>
+        <div class="results"><h3>Results</h3><ul class="check-list"><li>Cut month-start aggregation work by about 16 hours</li><li>Removed manual input — fewer errors and deadlines met</li><li>Guidelines kept development moving with minimal rework</li><li>Users said the work became “far less stressful” and “a big help”</li></ul></div>
+      </div>
+    </article>
+    <article class="card case reveal" id="cms-migration" data-cat="web pm">
+      <div class="case-head">
+        <div class="case-intro">
+          <div class="tag-line"><span class="pill">Web &amp; CMS</span><span class="pill">Leader</span></div>
+          <h2>Pharmaceutical Website CMS Migration</h2>
+          <p>Migrated 7 existing websites plus a new site for a major pharmaceutical company to a new CMS, including new homepage, landing, webinar and product pages.</p>
+          <dl class="facts"><div><dt>Period</dt><dd>Oct 2021 – Oct 2023</dd></div><div><dt>Role</dt><dd>Leader</dd></div><div><dt>Team</dt><dd>3</dd></div></dl>
+          <ul class="chips"><li>Proprietary CMS</li><li>HTML</li><li>CSS</li><li>Google Analytics</li><li>Photoshop</li><li>JIRA</li><li>Confluence</li></ul>
+        </div>
+        <div class="case-side"><img src="assets/img/cms-migration-desktop.png" alt="Migrated pharmaceutical website (details blurred)" loading="lazy" /></div>
+      </div>
+      <div class="case-cols">
+        <div><h3>Challenge</h3><p>The new CMS had little documentation, and the existing sites' design and user experience had to be preserved through the move — with Japanese and global stakeholders to keep aligned.</p></div>
+        <div><h3>What I did</h3><ul class="check-list"><li>Inventoried content and defined the migration approach</li><li>Investigated the new CMS's behavior and aligned migration requirements</li><li>Built the schedule and managed tasks and members</li><li>Built, updated and published pages on the new CMS</li><li>Checked UI/design consistency on PC, tablet and smartphone</li><li>Led spec alignment with the global team in English</li></ul></div>
+        <div class="results"><h3>Results</h3><ul class="check-list"><li>Migrated 7 existing sites + 1 new site on schedule</li><li>Mastered the new CMS early and rolled procedures out to the team</li><li>Prevented rework from Japanese–English misunderstandings</li></ul></div>
+      </div>
+    </article>
+    <article class="card case reveal" id="aem" data-cat="web pm">
+      <div class="case-head">
+        <div class="case-intro">
+          <div class="tag-line"><span class="pill">Web &amp; CMS</span><span class="pill">Member → Leader</span></div>
+          <h2>Pharmaceutical Brand Sites on AEM</h2>
+          <p>Content production, updates and operations direction for 21 brand websites of a major pharmaceutical company — corporate, product and patient-support pages. Took over as leader in the second half.</p>
+          <dl class="facts"><div><dt>Period</dt><dd>Oct 2017 – Oct 2020</dd></div><div><dt>Role</dt><dd>Member → Leader</dd></div><div><dt>Team</dt><dd>3</dd></div></dl>
+          <ul class="chips"><li>Adobe Experience Manager</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Adobe Analytics</li><li>Figma</li><li>JIRA</li></ul>
+        </div>
+        <div class="case-side"><img src="assets/img/aem-desktop.png" alt="AEM brand website (details blurred)" loading="lazy" /></div>
+      </div>
+      <div class="case-cols">
+        <div><h3>Challenge</h3><p>Frequent updates across 21 sites, with stakeholders in Japan and overseas, demanded dependable scheduling and consistent quality on every release.</p></div>
+        <div><h3>What I did</h3><ul class="check-list"><li>Gathered client requests and aligned specifications</li><li>Managed schedules, tasks and progress</li><li>Built and published AEM pages from PSD and Figma designs</li><li>Ran responsive, multi-device and pre-release checks (wording, links, UI)</li><li>Supported and trained team members</li><li>Aligned specs with the global team in English; proposed CMS improvements</li></ul></div>
+        <div class="results"><h3>Results</h3><ul class="check-list"><li>Built a stable operating structure for 21 sites</li><li>Kept operations trouble-free across domestic and overseas teams</li><li>Earned strong client praise for progress and quality management</li></ul></div>
+      </div>
+    </article>
+    <article class="card case reveal" id="inspection" data-cat="qa">
+      <div class="case-head no-media">
+        <div class="case-intro">
+          <div class="tag-line"><span class="pill now">Current</span><span class="pill">QA &amp; Customer Support</span></div>
+          <h2>Building Materials Inspection System</h2>
+          <p>Quality verification of a business system that centrally manages building-materials inspections. Since April 2026, the customer's point of contact for training, adoption and change requests.</p>
+          <dl class="facts"><div><dt>Period</dt><dd>May–Dec 2025 (QA) · Apr 2026 – Present</dd></div><div><dt>Role</dt><dd>QA / Customer liaison</dd></div><div><dt>Team</dt><dd>12</dd></div></dl>
+          <ul class="chips"><li>Delphi</li><li>GeneXus</li><li>PostgreSQL</li></ul>
+        </div>
+        
+      </div>
+      <div class="case-cols">
+        <div><h3>Challenge</h3><p>The system had to work for real inspection workflows, and after release the customer needed hands-on support and a reliable channel for new requests.</p></div>
+        <div><h3>What I did</h3><ul class="check-list"><li>Designed and ran tests based on business workflows</li><li>Reproduced, verified and reported defects</li><li>Visited the customer to explain operation and support adoption</li><li>Gathered and organized change requests; followed up with developers</li><li>Handled customer inquiries</li></ul></div>
+        <div class="results"><h3>Results</h3><ul class="check-list"><li>Raised system quality through early defect detection</li><li>Made test quality consistent by organizing test perspectives</li><li>Enabled smooth follow-up development by relaying requests accurately</li></ul></div>
+      </div>
+    </article>
+    <article class="card case reveal" id="batch" data-cat="qa">
+      <div class="case-head no-media">
+        <div class="case-intro">
+          <div class="tag-line"><span class="pill">QA</span><span class="pill">Sub-Leader</span></div>
+          <h2>Automated Payment Reconciliation Batch</h2>
+          <p>Quality verification of a batch system that automatically updates receivables from bank deposit data.</p>
+          <dl class="facts"><div><dt>Period</dt><dd>Jan – Mar 2026</dd></div><div><dt>Role</dt><dd>Sub-Leader</dd></div><div><dt>Team</dt><dd>5</dd></div></dl>
+          <ul class="chips"><li>COBOL</li><li>Oracle 19c</li></ul>
+        </div>
+        
+      </div>
+      <div class="case-cols">
+        <div><h3>Challenge</h3><p>A financial batch process needed thorough verification within a tight three-month window.</p></div>
+        <div><h3>What I did</h3><ul class="check-list"><li>Reviewed specifications and executed tests</li><li>Verified defects and confirmed fixes</li><li>Supported test progress management and team members</li><li>Organized quality issues and made them visible to stakeholders</li></ul></div>
+        <div class="results"><h3>Results</h3><ul class="check-list"><li>Helped prevent recurring defects</li><li>Kept testing on track for an on-schedule finish</li></ul></div>
+      </div>
+    </article>
+    <article class="card case reveal" id="reservation" data-cat="web">
+      <div class="case-head no-media">
+        <div class="case-intro">
+          <div class="tag-line"><span class="pill">Front-End</span></div>
+          <h2>Outpatient Reservation System</h2>
+          <p>Front-end development of a web system that lets patients book appointments with their preferred doctor.</p>
+          <dl class="facts"><div><dt>Period</dt><dd>Oct 2016 – Jun 2017</dd></div><div><dt>Role</dt><dd>Member</dd></div><div><dt>Team</dt><dd>8</dd></div></dl>
+          <ul class="chips"><li>Java</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>jQuery</li><li>Struts2</li><li>Bootstrap</li><li>MySQL</li></ul>
+        </div>
+        
+      </div>
+      <div class="case-cols">
+        <div><h3>Challenge</h3><p>Patients of all ages needed a booking flow that was simple and worked on any device.</p></div>
+        <div><h3>What I did</h3><ul class="check-list"><li>Designed and built the reservation screens</li><li>Built layouts with HTML/CSS and interactions with JavaScript/jQuery</li><li>Ran display, link and device checks; handled responsive support and release</li></ul></div>
+        <div class="results"><h3>Results</h3><ul class="check-list"><li>Improved ease of use through usability-focused UI</li><li>Reduced display defects</li></ul></div>
+      </div>
+    </article>
+    </section>
+  </main>
 
-    <h3>1. Project Overview</h3>
-        <p>
-          <strong>Site:</strong> Corporate, Product & Patient Support Websites (Pharmaceutical Client)<br>
-          <strong>Objective:</strong> Ensure stable content operations and improve localization quality across global and Japanese sites<br>
-          <strong>Role:</strong> Project Lead (Content operations, QA process design, team management)<br><br>
-
-          Led a three-member AEM operations team after the departure of two senior members.
-          Responsible for stabilizing operations, managing delivery, and improving localization quality.
-        </p>
-
-    <h3>2. Team Structure & Duration</h3>
-        <p>
-          Team size: 3 members (Member → Lead)<br>
-          Duration: Oct 2017 – Oct 2020
-        </p>
-
-    <h3>3. Client Challenges & Goals</h3>
-        <p>
-          Inconsistent localization quality and frequent updates caused operational instability.
-          The client required reliable delivery and standardized QA processes.
-        </p>
-
-    <h3>4. Solutions & Contributions</h3>
-    <ul>
-      <li>Directed and mentored two junior members, managing tasks and reviewing deliverables</li>
-      <li>Designed and implemented standardized QA and publishing workflows</li>
-      <li>Coordinated with Japanese stakeholders and global teams in English</li>
-      <li>Structured unclear requirements to reduce miscommunication</li>
-    </ul>
-
-    <h3>5. Improvements & Focus Areas</h3>
-    <ul>
-      <li>Improved Japanese content readability and layout consistency</li>
-      <li>Enhanced UX through page structure and content flow optimization</li>
-      <li>Established clear communication processes across stakeholders</li>
-    </ul>
-
-    <h3>6. Results & KPI</h3>
-    <ul>
-      <li>Achieved 100% on-time delivery over 3 years</li>
-      <li>Reduced post-release issues by approximately 30%</li>
-      <li>Improved content publishing efficiency by approximately 20%</li>
-      <li>Received recognition for leadership and quality</li>
-    </ul>
-
-    <h3>7. Business Impact</h3>
-    <ul>
-      <li>Stabilized operations after team restructuring</li>
-      <li>Established scalable workflows applicable to other projects</li>
-    </ul>
-  </section>
-
-  <!-- CMS MIGRATION -->
-  <section class="section project">
-    <h2>Proprietary CMS — AEM to CMS Migration</h2>
-
-    <h3>1. Project Overview</h3>
-        <strong>Site:</strong> Multiple Product and Disease Websites (CMS Migration Project)<br>
-        <strong>Objective:</strong> Migrate from AEM to proprietary CMS while maintaining UX consistency<br>
-        <strong>Role:</strong> Project Lead (CMS analysis, migration execution, team coordination)
-
-    <h3>2. Team Structure & Duration</h3>
-    <p>
-      Team size: 3 members (Lead)<br>
-      Duration: Oct 2021 – Oct 2023
-    </p>
-
-    <h3>3. Client Challenges & Goals</h3>
-    <p>
-      Limited documentation and unclear specifications made CMS adoption difficult,
-      while maintaining design and UX consistency was required.
-    </p>
-
-    <h3>4. Solutions & Contributions</h3>
-    <ul>
-      <li>Independently analyzed CMS and built validation pages</li>
-      <li>Led migration ensuring layout and UX consistency</li>
-      <li>Collaborated with global teams for bug reporting and spec clarification</li>
-      <li>Shared knowledge and best practices within the team</li>
-    </ul>
-
-    <h3>5. Improvements & Focus Areas</h3>
-    <ul>
-      <li>Clarified ambiguous requirements to prevent rework</li>
-      <li>Standardized workflows to improve efficiency</li>
-      <li>Ensured responsive and consistent UI quality</li>
-    </ul>
-
-    <h3>6. Results & KPI</h3>
-    <ul>
-      <li>Completed migration with 100% delivery rate on schedule</li>
-      <li>Improved team efficiency by approximately 25%</li>
-      <li>Contributed to CMS quality improvements through issue reporting</li>
-    </ul>
-
-    <h3>7. Business Impact</h3>
-    <ul>
-      <li>Enabled smooth transition to new CMS environment</li>
-      <li>Built reusable knowledge foundation for future projects</li>
-    </ul>
-  </section>
-
-  <!-- CMS BUILD -->
-  <section class="section project">
-    <h2>Proprietary CMS — New Page Builds & Publishing</h2>
-
-    <h3>1. Project Overview</h3>
-    <strong>Site:</strong> Japanese Market Websites (Homepage, Landing Pages, Webinars, Product Pages)<br>
-    <strong>Objective:</strong> Enable fast and stable page delivery using a new CMS<br>
-    <strong>Role:</strong> Content operations, workflow design, QA standardization
-
-
-    <h3>2. Team Structure & Duration</h3>
-    <p>
-      Team size: 3 members<br>
-      Duration: Oct 2021 – Oct 2023
-    </p>
-
-    <h3>3. Client Challenges & Goals</h3>
-    <p>
-      Rapid content delivery was required in an evolving CMS environment,
-      with limited QA standards and localization challenges.
-    </p>
-
-    <h3>4. Solutions & Contributions</h3>
-    <ul>
-      <li>Defined CMS workflows through testing and documentation</li>
-      <li>Built and published new localized pages</li>
-      <li>Created QA checklist for Japanese content validation</li>
-      <li>Shared CMS usage and troubleshooting knowledge</li>
-    </ul>
-
-    <h3>5. Improvements & Focus Areas</h3>
-    <ul>
-      <li>Streamlined publishing process</li>
-      <li>Optimized Japanese UX and readability</li>
-      <li>Reduced dependency on individual knowledge</li>
-    </ul>
-
-    <h3>6. Results & KPI</h3>
-    <ul>
-      <li>Reduced page delivery time by approximately 20%</li>
-      <li>Reduced QA issues by approximately 30%</li>
-      <li>Maintained stable multi-site operations</li>
-    </ul>
-
-    <h3>7. Business Impact</h3>
-    <ul>
-      <li>Established efficient and scalable content production flow</li>
-      <li>Improved overall operational stability</li>
-    </ul>
-  </section>
-
-</main>
-  
-
-  <!-- FOOTER -->
-<footer class="site">
-  <div class="container footer-inner">
-    <p>© <span id="year"></span> Moe Thet Hnin (モーテッニン)</p>
-    <div class="socials">
-      <a href="https://www.linkedin.com/in/moe-thet-hnin/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="mailto:moethethnin.tu@gmail.com">Email</a>
+  <footer class="site">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Moe Thet Hnin (モーテッニン)</p>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/moe-thet-hnin/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-7M12 13.5c0-2 1-3.5 3-3.5s2 1.5 2 3.5V17"/></svg></a>
+        <a href="mailto:moethethnin.tu@gmail.com" aria-label="Email"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
+
   <script src="assets/js/main.js"></script>
 </body>
 </html>
